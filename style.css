@@ -1,16 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #494E3F;
+    
 }
+
+body{
+    display: flex;
+}
+
+h1, h2, h3, h4, h5, p{
+    font-family: 'Mulish', sans-serif;
+}
+
+h1{
+    font-size: 27px;
+    font-weight: 800;
+}
+
+h3{
+    text-decoration: underline;
+    font-weight: 600;
+    padding: 0 0 10px 0;
+}
+
+h4{
+    font-size: 13px;
+}
+
 
 /* Aside */
 aside{
     margin: 0 30px 0 50px;
     background-color: #c4e2ca;
     width: 20%;
-    float: left;
 }
  /* profil section */
 img{
@@ -28,21 +56,17 @@ aside section.profil h4.date_de_naissance, p.recherche{
     margin: 0 0 25px 0;
 }
 
-span{
+aside ul{
+    list-style-type: circle;
+}
+
+aside section.profil p.recherche span{
     text-decoration: underline;
 }
 
 aside section.profil p.recherche, p.description{
     font-weight: bold;
 }
-
-/* aside section.profile p.description::before{
-    content: "";
-    position: absolute;
-    background-color: #494E3F;
-    width: 20px;
-    height: 20px;
-} */
 
 aside section.profil p.recherche{
     margin: 0 0 25px 0;
@@ -53,12 +77,36 @@ aside section.skills, section.loisirs, section.langues{
     margin: 15px 0 0 50px;
 }
 
+/* contact */
+
+aside section.contact h3{
+    padding: 0 0 10px 0;
+}
+
 aside section.contact{
     margin: 25px 0 10px 50px;
 }
 
-aside section.contact address{
-    display: flex;
-    flex-direction: column;
+aside section.contact i{
+    margin: 0 10px 5px 0;
 }
+
+aside section.contact address p{
+    display: inline;
+    font-size: 15px;
+}
+
+/* trait de séparation des sections */
+aside section.profil p.description{
+    border-top: 3px solid #587D9F;
+    padding-top: 25px;
+    margin: 0 15px;
+}
+
+aside section.skills{
+    border-top: 3px solid #587D9F;
+    padding: 25px 0 0 15px;
+    margin: 15px 15px;
+}
+
 /* fin aside */
