@@ -47,7 +47,7 @@ h5{
 
 /* Aside */
 aside{
-    margin: 0 30px 0 50px;
+    margin: 0 30px 0 25vw;
     background-color: #c4e2ca;
     width: 20%;
 }
@@ -136,10 +136,15 @@ main{
     margin-top: 40px;
 }
 
-main section.principal img{
+main section.principal h2{
+    margin-bottom: 20px
+}
+
+/* formations */
+/* main section.principal img{
     width: 25px;
     display: inline;
-}
+} */
 
 main section.principal h2{
     box-sizing: border-box;
@@ -168,5 +173,64 @@ main section.principal article.formation3 p{
     max-width: 30vw;
 }
 
+
+
+/* fin de formations */
+
+/* competences */
+
+main section.principal ul.progress_bar{
+    margin-left: 40px;
+}
+
+main section.principal ul.progress_bar li{
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+main section.principal ul.progress_bar li progress.html_{
+    margin-left: 47px;
+}
+
+main section.principal ul.progress_bar li progress.css{
+    margin-left: 64px;
+}
+
+main section.principal ul.progress_bar li progress.js{
+    margin-left: 23px;
+}
+
+main section.principal ul.progress_bar li progress.react{
+    margin-left: 55px;
+}
+
+main section.principal ul.progress_bar li progress.c{
+    margin-left: 20px;
+}
+
+main section.principal ul.progress_bar li progress.sir{
+    margin-left: 52px;
+}
+
+main section.principal ul.progress_bar li progress.git{
+    margin-left: 16px;
+}
+
+/* fin de competences */
+
+/* experiences */
+
+main section.principal article.mcdo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+main section.principal article.mcdo ul{
+    list-style: circle;
+    max-width: 450px;
+}
+
+/* fin experiences */
 
 /* fin main */
