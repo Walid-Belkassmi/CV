@@ -83,9 +83,9 @@ aside section.contact h3{
     padding: 0 0 10px 0;
 }
 
-aside section.contact{
-    margin: 25px 0 10px 50px;
-}
+/* aside section.contact{
+    margin: 25px 0 10px 15px;
+} */
 
 aside section.contact i{
     margin: 0 10px 5px 0;
@@ -103,10 +103,18 @@ aside section.profil p.description{
     margin: 0 15px;
 }
 
-aside section.skills{
+aside section.skills, section.loisirs, section.langues{
     border-top: 3px solid #587D9F;
     padding: 25px 0 0 15px;
     margin: 15px 15px;
 }
+
+aside section.contact{
+    border-top: 3px solid #587D9F;
+    border-style: dotted;
+    padding: 25px 0 0 15px;
+    margin: 15px 15px;
+}
+
 
 /* fin aside */
