@@ -8,7 +8,7 @@
     box-sizing: border-box;
     color: #494E3F;
     
-}
+} 
 
 body{
     display: flex;
@@ -50,6 +50,7 @@ aside{
     margin: 0 30px 0 25vw;
     background-color: #c4e2ca;
     width: 20%;
+    border-left: 1px solid #494E3F;
 }
  /* profil section */
 img{
@@ -133,7 +134,7 @@ aside section.contact{
 /* main */
 
 main{
-    margin-top: 40px;
+    border-right: 1px solid #494E3F;
 }
 
 main section.principal h2{
